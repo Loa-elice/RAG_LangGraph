@@ -1,8 +1,9 @@
 import os
 from typing import Optional, TypedDict
 
-import matplotlib.pyplot as plt
 import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib import font_manager
 from dotenv import load_dotenv
 from langchain.chat_models import ChatOpenAI
 from langchain.document_loaders import PyPDFLoader
