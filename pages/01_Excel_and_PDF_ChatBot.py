@@ -8,9 +8,9 @@ from utils.custom_chatbot import ExcelPDFChatbot
 st.set_page_config(page_title="🦜 엑셀 데이터와 PDF 문서 기반 챗봇")
 st.title("🦜 엑셀 데이터와 PDF 문서를 모두 활용하는 챗봇")
 
-file_path = "./pages/data/RE177_2023년 국내외 인공지능 산업 동향 연구.pdf"
+file_path = "./pages/data/file1.pdf"
 file_description = "인공지능 산업 동향"
-data_path = "./pages/data/도로교통공단_사고유형별_교통사고_통계_20231231.csv"
+data_path = "./pages/data/file2.csv"
 data_description = "교통사고 통계"
 df = pd.read_csv(data_path, encoding="cp949")
 
