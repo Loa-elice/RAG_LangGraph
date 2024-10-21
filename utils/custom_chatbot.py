@@ -19,6 +19,9 @@ from utils.utils import *
 load_dotenv()
 api_key = os.environ.get("OPENAI_API_KEY")
 
+# 폰트를 matplotlib에 등록
+font_manager.fontManager.addfont("./utils/fonts/NanumBarunGothic.ttf")
+
 plt.rcParams["axes.unicode_minus"] = False
 plt.rc("font", family="NanumBarunGothic")
 
