@@ -12,7 +12,7 @@ file_path = "./pages/data/file1.pdf"
 file_description = "인공지능 산업 동향"
 data_path = "./pages/data/file2.csv"
 data_description = "교통사고 통계"
-df = pd.read_csv(data_path, encoding="cp949")
+df = pd.read_csv(data_path, encoding="utf-8")
 
 
 @st.cache_resource
